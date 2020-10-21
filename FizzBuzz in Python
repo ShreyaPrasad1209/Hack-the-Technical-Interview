@@ -1,0 +1,13 @@
+#Code by Mahnoor 
+
+for fizzbuzz in range(51):
+    if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
+        print("Its a fizzbuzz")
+        continue
+    elif fizzbuzz % 3 == 0:
+        print("Its a fizz")
+        continue
+    elif fizzbuzz % 5 == 0:
+        print("Its a buzz")
+        continue
+    print(fizzbuzz)
